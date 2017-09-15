@@ -1,0 +1,94 @@
+h1, h2 {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+main h1 {
+	font-size: 60px;
+	background-color: #851944;
+	color: #FAFFFA;
+	text-align: center;
+	padding: 25px;
+	margin: 0;
+	border-bottom: 10px solid #000000;
+}
+
+main a {
+	color: #851944;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+body {
+	font-family: "Crimson Text", serif;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote {
+	background-color: #D9E5E3;
+	margin: 20px 40px;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+}
+
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+}
+
+blockquote, aside, footer {
+	padding: 20px;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+}
+
+nav a {
+	color: #F2FFFC;
+}
+
+/* drawing with div */
+/*
+#butterfly {
+	border-left: 30px solid red;
+	border-bottom: 30px solid transparent;
+	border-top: 30px solid transparent;
+	border-right: 30px solid red;
+	width: 0;
+}
+*/
