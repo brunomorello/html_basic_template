@@ -2,6 +2,12 @@ h1, h2 {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
 main h1 {
 	font-size: 60px;
 	background-color: #851944;
@@ -10,6 +16,7 @@ main h1 {
 	padding: 25px;
 	margin: 0;
 	border-bottom: 10px solid #000000;
+	text-transform: uppercase;
 }
 
 main a {
@@ -24,6 +31,7 @@ main div {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 p {
@@ -53,6 +61,20 @@ blockquote {
 	box-sizing: border-box;
 }
 
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+	display: block;
+}
+
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
@@ -61,6 +83,25 @@ aside {
 
 blockquote, aside, footer {
 	padding: 20px;
+}
+
+.bio-joao-foto, .aside-nav-bio{
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.bio-joao-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.aside-nav-bio {
+	position: relative;
+	width: 15%;
+	top: 310px;
 }
 
 aside a {
@@ -73,6 +114,13 @@ aside h1 {
 	margin-bottom: 25px;
 }
 
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
 .icones-sociais li {
 	display: inline-block;
 }
@@ -83,8 +131,28 @@ aside h1 {
 	padding: 20px;
 }
 
+.icones-sociais a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 0;
+}
+
+.github {
+	background-image: url('github.png');
+}
+
+.twitter {
+	background-image: url('twitter.png');
+}
+
+.linkedin {
+	background-image: url('linkedin.png');
+}
+
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 /* drawing with div */

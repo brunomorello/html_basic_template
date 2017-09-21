@@ -1,0 +1,43 @@
+.container {
+	width: 400px;
+}
+
+#div-1 {
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	background-color: red;
+	float: left;
+}
+
+#div-2 {
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	background-color: blue;
+	float: left;
+}
+
+#div-3 {
+	height: 200px;
+	width: 200px;
+	box-sizing: border-box;
+	background-color: green;
+	float: right;	
+}
+
+#div-4 {
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	background-color: yellow;
+	float: right;
+}
+
+#div-5 {
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	background-color: grey;
+	float: right;
+}
