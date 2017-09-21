@@ -1,6 +1,37 @@
+/* Page Default Styles */
 h1, h2 {
 	font-family: "Open Sans Condensed", sans-serif;
 }
+
+blockquote, aside, footer {
+	padding: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	clear: both;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+body {
+	font-family: "Crimson Text", serif;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/* main container */
 
 main {
 	float: left;
@@ -29,29 +60,7 @@ main div {
 	padding: 30px 0;
 }
 
-h2 {
-	font-size: 30px;
-	clear: both;
-}
-
-p {
-	text-align: justify;
-	margin: 20px 0;
-}
-
-body {
-	font-family: "Crimson Text", serif;
-	background-color: #F2FFFC;
-	line-height: 1.5;
-}
-
-strong {
-	font-weight: bold;
-}
-
-em {
-	font-style: italic;
-}
+/* blockquote style */
 
 blockquote {
 	background-color: #D9E5E3;
@@ -75,14 +84,12 @@ cite {
 	display: block;
 }
 
+/* navigation - aside styles */
+
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
-}
-
-blockquote, aside, footer {
-	padding: 20px;
 }
 
 .bio-joao-foto, .aside-nav-bio{
@@ -114,21 +121,8 @@ aside h1 {
 	margin-bottom: 25px;
 }
 
-footer {
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-}
-
 .icones-sociais li {
 	display: inline-block;
-}
-
-#rodape-pagina {
-	background-color: #000;
-	color: #F2FFFC;
-	padding: 20px;
 }
 
 .icones-sociais a {
@@ -139,21 +133,37 @@ footer {
 }
 
 .github {
-	background-image: url('github.png');
+	background-image: url('../images/github.png');
 }
 
 .twitter {
-	background-image: url('twitter.png');
+	background-image: url('../images/twitter.png');
 }
 
 .linkedin {
-	background-image: url('linkedin.png');
+	background-image: url('../images/linkedin.png');
 }
 
 nav a {
 	color: #F2FFFC;
 	text-transform: lowercase;
 }
+
+/* footer */
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+#rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 20px;
+}
+
 
 /* drawing with div */
 /*
@@ -165,6 +175,8 @@ nav a {
 	width: 0;
 }
 */
+
+/* blog styles */
 
 article {
 	padding-bottom: 20px;
